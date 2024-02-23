@@ -4,7 +4,7 @@ const CartWidget = ({ quantity }) => {
     <>
       <button className="btn">
         <p>
-          <img src={cartLogo} />
+          <img src={cartLogo} alt="cart logo"/>
           {quantity}
         </p>
       </button>

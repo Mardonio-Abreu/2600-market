@@ -1,7 +1,6 @@
-import ItemList from "../ItemList/ItemList";
 
-export function ItemListContainer() {
-  return <ItemList />;
+export function ItemListContainer({text}) {
+  return <p>{text}</p>;
 }
 
 export default ItemListContainer;
